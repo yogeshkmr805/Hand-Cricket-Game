@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hand Cricket Game</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="cricon.png" type="image/png">
+    </head>
+    <body>
+        <main>
+
+            <nav>
+                <h2>
+                    HAND CRICKET GAME</h2>
+                <div id="nav-links">
+                    <a class="nav-login_btn" id="toss" href="#modalbox">
+                        <strong>TOSS</strong>
+                    </a>
+                </div>
+            </nav>
+
+            <div id="modalbox" class="modal">
+                <div id="win" class="modalcontent">
+                    <div id="who_won">
+                        <h2>RED WON TOSS</h2>
+                    </div>
+                    <a href="#" class="modalclose">&times;</a>
+                </div>
+            </div>
+
+            <section id="main">
+                <div class="box">
+                    <div id="red" class="container">
+
+                        <h1 id="num1">0</h1>
+                        <div class="score_box">
+                            <img src="bat.jpg" id="red_play" alt="bat">
+                            <div id="red_score" class="score">
+                                0
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="green" class="container">
+
+                        <h1 id="num2">0</h1>
+                        <div class="score_box">
+                            <img src="ball.jpg" id="green_play" alt="ball">
+                            <div id="green_score" class="score">
+                                0
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <button id="gen" class="button">GO</button>
+                    <button id="res" class="button">RESET</button>
+                </div>
+            </section>
+
+            <footer>
+                &#xa9; Hand Cricket Game 1999-2021 by Refsnes Data. All Rights Reserved.
+            </footer>
+
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
